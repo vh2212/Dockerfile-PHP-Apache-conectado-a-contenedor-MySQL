@@ -4,8 +4,8 @@ Creación de Contenedor Docker de Apache con PHP creado desde Dockerfile y conec
 *Descargar la imagen de docker de Mysql.*
 * docker pull mysql:5
 # PASO 2.
-*Crear una carpeta con el nombre DataBase.*
-*Crear una carpeta y guardar los archivos Conexion.php, PresenciaBL.php, PresenciaService.php, Index.php y el archivo Dockerfile que se encuentran en este repositorio.*
+* Crear una carpeta con el nombre DataBase.
+* Crear una carpeta y guardar los archivos Conexion.php, PresenciaBL.php, PresenciaService.php, Index.php y el archivo Dockerfile que se encuentran en este repositorio.
 
 # PASO 3.
 *Ejecutar el contenedor para la Base de Datos.*
