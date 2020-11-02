@@ -27,4 +27,4 @@ Crear una Base de datos
 Ejecutar crear la imagen para el contenedor Apache.
 * Abrir la carpeta con los archivos php y el Dockerfile desde Visual Studio Code.
 * Hacer clic derecho en el archivo Dockerfile y seleccionar la opción "Build image..."
-* ![Alt text](https://drive.google.com/file/d/1zmc3GsQ7_bk9wiBe40t_Icppch52PYpe/view?usp=sharing/1.png) 
+* ![Alt text](./Captura de pantalla de 2020-11-02 15-01-40.png) 
