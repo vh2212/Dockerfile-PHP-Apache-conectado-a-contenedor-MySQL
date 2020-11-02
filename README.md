@@ -47,8 +47,10 @@ Configurar el contenedor de la página.
 # PASO 8.
 Comprobar el funcionamiento del Contenedor.
 * Abrir el navegador y escribir localhost. Debería mostrarle algo como esto.
+*O también localhost:[puerto]*
 * ![Alt text](https://github.com/vh2212/Dockerfile-PHP-Apache-conectado-a-contenedor-MySQL/blob/main/Captura%20de%20pantalla%20de%202020-11-02%2015-37-12.png)
 * Escribir en el navegador localhost/PresenciaService.php. Debería mostrarle algo como esto.
+*O también localhost:[puerto]/PresenciaService.php*
 * ![Alt text](https://github.com/vh2212/Dockerfile-PHP-Apache-conectado-a-contenedor-MySQL/blob/main/Captura%20de%20pantalla%20de%202020-11-02%2015-38-51.png)
 
 *Nota: En Visual Studio Code debe tener instalada la extensión Docker.*
