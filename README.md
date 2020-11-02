@@ -28,10 +28,10 @@ Crear la imagen para el contenedor Apache.
 * Abrir la carpeta con los archivos php y el Dockerfile desde Visual Studio Code.
 * Hacer clic derecho en el archivo Dockerfile y seleccionar la opción "Build image..."
 * ![Alt text](https://github.com/vh2212/Dockerfile-PHP-Apache-conectado-a-contenedor-MySQL/blob/main/Captura%20de%20pantalla%20de%202020-11-02%2015-01-40.png) 
-* Ponerle un nombre a la imagen, ejemplo [nombre]:latest, donde latest es el número de versiones que tiene la imagen. (Se puede quedar así ese campo.)
+* Ponerle un nombre a la imagen, ejemplo [nombre de imagen]:latest, donde latest es el número de versiones que tiene la imagen. (Se puede quedar así ese campo.)
 # PASO 6.
 Crear el contenedor Apache.
-* docker run -p [puerto]:80 --name [nombre del contenedor Apache] -d --link [nombre del contenedor de base de datos] api:latest
+* docker run -p [puerto]:80 --name [nombre del contenedor Apache] -d --link [nombre del contenedor de base de datos] [nombre de imagen]:latest
 # PASO 7.
 Configurar el contenedor de la página.
 * docker exec -it [contenedor Apache] /bin/bash
