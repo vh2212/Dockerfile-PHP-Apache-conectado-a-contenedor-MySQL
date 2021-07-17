@@ -10,6 +10,7 @@ Creación de Contenedor Docker de Apache con PHP creado desde Dockerfile y conec
 # PASO 3.
 *Ejecutar el contenedor para la Base de Datos.*
 # Base de Datos.
+* docker run -p 3306:3306 --name BD -v /Descargas/login_crud/DataBase:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=cisco123 -d mysql:5
 * docker run -p 3306:3306 --name [nombre del contenedor] -v [ruta de la carpeta DataBase]:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=[contraseña] -d mysql:5
 
 # PASO 4.
@@ -31,6 +32,7 @@ Crear la imagen para el contenedor Apache.
 * Ponerle un nombre a la imagen, ejemplo [nombre de imagen]:latest, donde latest es el número de versiones que tiene la imagen. (Se puede quedar así ese campo.)
 # PASO 6.
 Crear el contenedor Apache.
+* docker run -p 80:80 --name Webcrud -d webcrud:latest --network=host 
 * docker run -p [puerto]:80 --name [nombre del contenedor Apache] -d --link [nombre del contenedor de base de datos] [nombre de imagen]:latest
 # PASO 7.
 Configurar el contenedor de la página.
